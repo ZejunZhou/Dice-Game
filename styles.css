@@ -18,8 +18,15 @@ h1 {
   margin: 30px;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
-  font-size: 8rem;
+  font-size: 7rem;
   color: #4ECCA3;
+}
+
+@media(max-width:800px){
+  h1{
+    font-size: 4rem;
+  }
+
 }
 
 p {
@@ -37,5 +44,10 @@ footer {
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
+}
 
+.startButton{
+  display: block;
+  width: 30%;
+  margin: 10px auto;
 }
